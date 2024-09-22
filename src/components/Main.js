@@ -99,7 +99,7 @@ props.getArticles();
 
   <SharedImge>
     <a>
-      {!article.sharedImg && article.video ? (
+      {!article.shareImage && article.video ? (
         <ReactPlayer width={'100%'} url={article.video} />
       ) : (
         article.sharedImg &&  <img width="100%"  src={article.sharedImg  } />

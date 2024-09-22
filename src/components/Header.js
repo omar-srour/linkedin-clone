@@ -167,6 +167,7 @@ const SearchIcon =styled.div`
 position:absolute;
 top: 10px;
 left:5px;
+
 `;
 
 
@@ -175,11 +176,13 @@ const Nav=styled.div`
 display: block;
 margin-left:auto;
 
+
 @media (max-width: 768px) {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+  
 background-color:white;
 }
 `;
