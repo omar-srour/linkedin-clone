@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+/* .Container{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+background-color:white;
+position: fixed; top: 0;
+width: 100vw; 
+z-index: 1;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.Content{
+display: flex;
+align-items: center;
+margin: 0;
+min-height: 100%;
+max-width: 1128;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+.Logo  {
+    margin: 4px 14px;
+    font-size: 0;
+}
+
+.Search {
+
+opacity: 2;
+flex-grow: 1;
+position: relative;
+max-width: 280px;
+
+}
+
+
+.Search input {
+  border: none;
+  background-color: #eef3f8;
+  border-radius: 3px;
+  height: 34px;
+  padding: 0 8px 0 40px;
+  box-shadow: 0;
+  font-size: small;
+  font-weight: bolder;
+  border-color: #dce6f1;
+  color: #000;
+    }
+
+
+
+.SearchIcon{
+position: absolute;
+top: 10px;
+left: 10px;
+font-size: 0;
+
+}
+
+.nav{
+display: block;
+margin-left: auto;
+
+}
+
+.NavListWrap{
+display: flex;
+flex-wrap:nowrap;
+}
+
+.active span{
+display: flex;
+flex-direction: column;
+border-bottom: 2px solid;
+
+
+
+}
+
+.NavList{
+display: flex;
+align-items: center;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .NavListWrap {
+      position: fixed; 
+       bottom: 0; 
+       left: 0; 
+       background-color: white; 
+       width: 100%;
+    }
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
